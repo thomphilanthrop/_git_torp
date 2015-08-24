@@ -1,0 +1,180 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	height: 100%;
+	font-size: 16px;
+	line-height: 1.625em;
+}
+header{
+	height:115px;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5)
+}
+hr{
+	margin:30px 0;
+}
+h1{
+	text-align:center;
+	font-size:24px;
+	font-weight:bolder;
+	margin:15px 0;
+}
+p{
+	margin:20px 0;
+}
+.clearfix{
+	clear:both;
+}
+.container{
+	width:940px;
+	margin:0 auto;
+}
+.logo{
+	width:120px;
+	margin-top:20px;
+}
+.social{
+	float:right;
+	margin-top:40px;
+}
+.social li{
+	display:inline-block;
+	margin-left:10px;
+}
+.ingress{
+	margin-top:55px;
+}
+.position{
+	margin-top:100px;
+}
+.position-logo{
+	float:left;
+	width:120px;
+}
+.position-text{
+	margin-top:-12px;
+	float:right;
+	width:800px;
+	
+}
+.youtube{
+	margin-top:100px;
+	width:940px;
+	height:529px;
+}
+.company-images{
+	text-align:center;
+	margin-top:40px;
+}
+.company-images li{
+	display:inline-block;
+	margin:0 6px;
+}
+.company-images li img{
+	width: 300px;
+}
+.about-company{
+	margin-top:50px;
+	text-align:center;
+}
+.company-text{
+	text-align:left;
+}
+.google-maps{
+	width:940px;
+	height:300px;
+}
+.torp-person{
+	margin-top:100px;
+}
+.person-img{
+	width:300px;
+	float:left;
+}
+.person-position{
+	margin:0;
+}
+.buttons{
+	float:left;
+	width:600px;
+	padding-left:40px;
+	text-align:center;
+}
+.buttons h1{
+	margin:0;
+}
+.person-buttons, .torp-buttons{
+	margin-top:22px;
+}
+.person-buttons li{
+	margin:0 auto;
+	margin-bottom:5px;
+	padding-top:5px;
+	width:300px;
+	height:33px;
+	background:#333;
+	color:#fff;
+	border-radius:5px;
+	background-repeat:no-repeat;
+	background-position:14px 12px;
+	background-size: 14px;
+}
+.person-buttons li.phone {
+	background-image:url(../img/phone.png);
+}
+.person-buttons li.sms{
+	background-image:url(../img/sms.png);
+}
+.person-buttons li.mail{
+	background-image:url(../img/mail.png);
+}
+.person-buttons li span{
+	margin-top:50px;
+}
+.torp-buttons li{
+	width:600px;
+	height:31px;
+	padding-top:5px;
+	background:#333;
+	color:#fff;
+	margin-bottom:5px;
+	background-image:url(../img/arrow.png);
+	background-repeat:no-repeat;
+	background-size:20px;
+	background-position:15px 14px;
+	cursor:pointer;
+}
+.om-torp{
+	display:none;
+	height:auto;
+	-webkit-transition:  height 1s ease-in-out;
+    -moz-transition:  height 1s ease-in-out;
+    -ms-transition:  height 1s ease-in-out;
+    -o-transition:  height 1s ease-in-out;
+    transition:  height 1s ease-in-out;
+}
+.om-torp p{
+	text-align:left;
+}
+.om-torp.active, .ledige.active{
+	display:block;
+	height:auto;
+}
+.ledige{
+	display:none;
+	overflow: scroll;
+}
+.ledige .active{
+	display:block;
+}
+.ledige iframe, .ledige{
+	height: 524px;
+    width: 600px;
+}
+footer{
+	text-align:center;
+	margin-top:115px;
+	font-size:14px;
+}
+footer a{
+	color:#333;
+}
