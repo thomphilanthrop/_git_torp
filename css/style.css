@@ -7,7 +7,9 @@ body{
 }
 header{
 	height:115px;
-	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5)
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+	color:#fff;
+	background:#9d1917;
 }
 hr{
 	margin:30px 0;
@@ -17,6 +19,13 @@ h1{
 	font-size:24px;
 	font-weight:bolder;
 	margin:15px 0;
+}
+h2{
+	font-weight:bold;
+	text-align:center;
+	font-size:20px;
+	margin:15px 0;
+	color:#9d1917;
 }
 p{
 	margin:20px 0;
@@ -32,9 +41,13 @@ p{
 	width:120px;
 	margin-top:20px;
 }
+.site-link{
+	margin:20px 0 10px 0;
+	font-size:24px;
+}
 .social{
 	float:right;
-	margin-top:40px;
+	text-align:center;
 }
 .social li{
 	display:inline-block;
@@ -44,40 +57,78 @@ p{
 	margin-top:55px;
 }
 .position{
-	margin-top:100px;
+	margin-top:80px;
+	text-align:center;
 }
 .position-logo{
-	float:left;
 	width:120px;
 }
 .position-text{
-	margin-top:-12px;
-	float:right;
-	width:800px;
-	
+	text-align:left;
+	margin-top:20px;
+}
+.position-text h1, .position-text h2{
+	text-align:left;
+}
+.position-text ul li{
+	list-style-image:url(../img/bull.jpg);
+	margin-left:15px;
 }
 .youtube{
-	margin-top:100px;
+	margin-top:80px;
 	width:940px;
 	height:529px;
 }
-.company-images{
-	text-align:center;
-	margin-top:40px;
-}
-.company-images li{
-	display:inline-block;
-	margin:0 6px;
-}
-.company-images li img{
-	width: 300px;
-}
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 40px;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
 .about-company{
 	margin-top:50px;
 	text-align:center;
 }
 .company-text{
 	text-align:left;
+}
+.company-links-text{
+	float:left;
+	margin-top:50px;
+}
+.company-links{
+	float:left;
+	margin:20px 0 60px 60px;
+}
+.company-links li{
+	display:inline-block;
+	vertical-align:middle;
+	padding-left:20px;
 }
 .google-maps{
 	width:940px;
@@ -92,6 +143,8 @@ p{
 }
 .person-position{
 	margin:0;
+	margin-top:10px;
+	color:#9d1917;
 }
 .buttons{
 	float:left;
@@ -102,8 +155,8 @@ p{
 .buttons h1{
 	margin:0;
 }
-.person-buttons, .torp-buttons{
-	margin-top:22px;
+.person-buttons{
+	margin-top:12px;
 }
 .person-buttons li{
 	margin:0 auto;
@@ -143,32 +196,31 @@ p{
 	background-position:15px 14px;
 	cursor:pointer;
 }
-.om-torp{
-	display:none;
-	height:auto;
-	-webkit-transition:  height 1s ease-in-out;
-    -moz-transition:  height 1s ease-in-out;
-    -ms-transition:  height 1s ease-in-out;
-    -o-transition:  height 1s ease-in-out;
-    transition:  height 1s ease-in-out;
+.sok{
+	margin-top: 15px;
+	font-size:28px;
 }
-.om-torp p{
-	text-align:left;
-}
-.om-torp.active, .ledige.active{
-	display:block;
-	height:auto;
-}
-.ledige{
-	display:none;
-	overflow: scroll;
-}
-.ledige .active{
-	display:block;
-}
-.ledige iframe, .ledige{
-	height: 524px;
-    width: 600px;
+.btn{
+	margin-top:10px;
+	cursor:pointer;
+	display: inline-block;
+    padding: 3px 0;
+	width:300px;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+	background:#9d1917;
+	color:#fff;
 }
 footer{
 	text-align:center;
@@ -176,5 +228,5 @@ footer{
 	font-size:14px;
 }
 footer a{
-	color:#333;
+	color:#9d1917;
 }
